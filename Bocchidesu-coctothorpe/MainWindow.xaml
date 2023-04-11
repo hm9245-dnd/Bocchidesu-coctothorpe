@@ -1,0 +1,44 @@
+﻿
+<Window
+    
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Bocchidesu_coctothorpe"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="Bocchidesu_coctothorpe.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="459" Width="402">
+    <Grid HorizontalAlignment="Center" Width="406" Height="459" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,353,0,0" VerticalAlignment="Top" Grid.Column="1" Height="47" Width="110" Background="#FF30BB85" UseLayoutRounding="False" BorderThickness="0,0,0,0" ClipToBounds="True" FontSize="14" Click="Button_Click_1">
+            <Button.Template >
+                <ControlTemplate TargetType="{x:Type Button}" >
+                    <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="1" CornerRadius="10,10,10,10">
+                        <Border.Background>
+                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                <GradientStop Color="#FF00FF04"/>
+                                <GradientStop Color="#FF20E28D" Offset="0.48"/>
+                            </LinearGradientBrush>
+                        </Border.Background>
+                        <ContentPresenter Content="{TemplateBinding Content}" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <CheckBox x:Name="OneDrive" Content="OneDrive" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="126" Margin="10,10,0,0" FontSize="16" Grid.ColumnSpan="2" Background="White" BorderBrush="White" Foreground="Black" Checked="OneDrive_Checked"/>
+        <CheckBox x:Name="Pixiv" Content="Pixiv" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="126" Margin="270,10,0,0" FontSize="16" Grid.ColumnSpan="2" Background="White" BorderBrush="White" Foreground="Black"/>
+        <CheckBox x:Name="Discord" Content="Discord" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="126" Margin="10,45,0,0" FontSize="16" Grid.ColumnSpan="2" Background="White" BorderBrush="White" Foreground="Black"/>
+        <CheckBox x:Name="GitHub" Content="GitHub" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="126" Margin="136,45,0,0" FontSize="16" Grid.ColumnSpan="2" Background="White" BorderBrush="White" Foreground="Black"/>
+        <CheckBox x:Name="Steam" Content="Steam" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="126" Margin="270,45,0,0" FontSize="16" Grid.ColumnSpan="2" Background="White" BorderBrush="White" Foreground="Black"/>
+        <CheckBox x:Name="DuckDuckGo" Content="DuckDuckGo" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="126" Margin="10,80,0,0" FontSize="16" Grid.ColumnSpan="2" Background="White" BorderBrush="White" Foreground="Black"/>
+        <CheckBox x:Name="Nyaa" Content="Nyaa" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="126" Margin="136,80,0,0" FontSize="16" Grid.ColumnSpan="2" Background="White" BorderBrush="White" Foreground="Black"/>
+        <CheckBox x:Name="v2ex" Content="v2ex" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="126" Margin="270,80,0,0" FontSize="16" Grid.ColumnSpan="2" Background="White" BorderBrush="White" Foreground="Black"/>
+        <CheckBox x:Name="Gravatar" Content="Gravatar" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="126" Margin="10,115,0,0" FontSize="16" Grid.ColumnSpan="2" Background="White" BorderBrush="White" Foreground="Black"/>
+        <CheckBox x:Name="ExHentai" Content="ExHentai" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="126" Margin="136,10,0,0" FontSize="16" Grid.ColumnSpan="2" Background="White" BorderBrush="White" Foreground="Black"/>
+    </Grid>
+</Window>
