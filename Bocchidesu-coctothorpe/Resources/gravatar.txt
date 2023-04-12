@@ -1,0 +1,7 @@
+
+127.0.0.1 gravatar.com #gravatar
+127.0.0.1 www.gravatar.com #gravatar
+127.0.0.1 cn.gravatar.com #gravatar
+127.0.0.1 en.gravatar.com #gravatar
+127.0.0.1 s.gravatar.com #gravatar
+127.0.0.1 2.gravatar.com #gravatar

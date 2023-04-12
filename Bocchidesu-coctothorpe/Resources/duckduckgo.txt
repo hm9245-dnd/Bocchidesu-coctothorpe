@@ -1,0 +1,4 @@
+
+127.0.0.1 duckduckgo.com #duckduckgo
+127.0.0.1 external-content.duckduckgo.com #duckduckgo
+127.0.0.1 improving.duckduckgo.com #duckduckgo

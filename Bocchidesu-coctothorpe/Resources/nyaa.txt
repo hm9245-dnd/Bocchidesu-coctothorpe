@@ -1,0 +1,4 @@
+
+127.0.0.1	nyaa.si #nyaa
+127.0.0.1	www.nyaa.si #nyaa
+127.0.0.1	sukebei.nyaa.si #nyaa

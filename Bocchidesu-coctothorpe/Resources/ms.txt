@@ -1,0 +1,4 @@
+
+127.0.0.1 onedrive.live.com #ms
+127.0.0.1 skyapi.onedrive.live.com #ms
+127.0.0.1 1drv.ms #ms
