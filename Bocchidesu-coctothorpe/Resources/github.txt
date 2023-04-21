@@ -1,5 +1,8 @@
 
-185.199.108.154 github.githubassets.com #github
+127.0.0.1 uploads.github.com #github
+127.0.0.1 api.funcaptcha.com #github
+127.0.0.1 media.githubusercontent.com #github
+127.0.0.1 camo.githubusercontent.com #github
 127.0.0.1 github.com #github
 127.0.0.1 nodeload.github.com #github
 127.0.0.1 api.github.com #github

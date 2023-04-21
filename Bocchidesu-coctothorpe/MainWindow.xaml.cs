@@ -144,7 +144,7 @@ namespace Bocchidesu_coctothorpe
                         }
                         try
                         {
-                            Process.Start("nginx");
+                            Process.Start("nginx.exe");
                             log.Info("the nginx start successful");
                         }
                         catch
@@ -152,9 +152,7 @@ namespace Bocchidesu_coctothorpe
                             log.Error("the 'nginx.exe' start failed,or the nginx,exe is lost");
                             MessageBox.Show("(っ °Д °;)っ出了点错误，把日志发到Issues上,日志文件在logs/bocchidesu(最新日期).log", "错误", MessageBoxButton.OK, MessageBoxImage.Error);
                         }
-                        Process.Start("nginx.exe");
                         MessageBox.Show("开启成功", "提示", MessageBoxButton.OK, MessageBoxImage.Information);
-                        log.Info("start success");
                     }
                     else
                     {
@@ -184,7 +182,7 @@ namespace Bocchidesu_coctothorpe
             }
             catch
             {
-                MessageBox.Show("读取内容到文件方法错误");
+                MessageBox.Show("写入内容到hosts失败");
             }
         }
     }
