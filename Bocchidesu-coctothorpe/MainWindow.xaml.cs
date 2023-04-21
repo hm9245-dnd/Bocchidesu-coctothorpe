@@ -126,12 +126,6 @@ namespace Bocchidesu_coctothorpe
                                 getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
                             
                         }
-                        if (Gravatar.IsChecked.Value)
-                        {
-                                string conpath = txt.gravatar;//定义要获取的文件内容地址
-                                getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
-                            
-                        }
                         if (DuckDuckGo.IsChecked.Value)
                         {
                                 string conpath = txt.duckduckgo;//定义要获取的文件内容地址

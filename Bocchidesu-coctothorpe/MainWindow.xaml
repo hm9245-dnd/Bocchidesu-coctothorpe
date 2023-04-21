@@ -36,7 +36,6 @@
         <CheckBox x:Name="DuckDuckGo" Content="DuckDuckGo" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="126" Margin="10,80,0,0" FontSize="16" Grid.ColumnSpan="2" Background="White" BorderBrush="White" Foreground="Black" />
         <CheckBox x:Name="Nyaa" Content="Nyaa" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="126" Margin="136,80,0,0" FontSize="16" Grid.ColumnSpan="2" Background="White" BorderBrush="White" Foreground="Black" />
         <CheckBox x:Name="v2ex" Content="v2ex" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="126" Margin="270,80,0,0" FontSize="16" Grid.ColumnSpan="2" Background="White" BorderBrush="White" Foreground="Black" />
-        <CheckBox x:Name="Gravatar" Content="Gravatar" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="126" Margin="10,115,0,0" FontSize="16" Grid.ColumnSpan="2" Background="White" BorderBrush="White" Foreground="Black" />
         <CheckBox x:Name="ExHentai" Content="ExHentai" HorizontalAlignment="Left" VerticalAlignment="Top" Height="30" Width="126" Margin="136,10,0,0" FontSize="16" Grid.ColumnSpan="2" Background="White" BorderBrush="White" Foreground="Black" />
     </Grid>
 </Window>

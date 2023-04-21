@@ -24,5 +24,4 @@ if __name__ == '__main__':
     cleanhosts('#duckduckgo')
     cleanhosts('#ms')
     cleanhosts('#exhentai')
-    cleanhosts('#gravatar')
     cleanhosts('#steam')

@@ -112,7 +112,10 @@ namespace Bocchidesu_coctothorpe {
         
         /// <summary>
         ///   查找类似 
-        ///185.199.108.154 github.githubassets.com #github
+        ///127.0.0.1 uploads.github.com #github
+        ///127.0.0.1 api.funcaptcha.com #github
+        ///127.0.0.1 media.githubusercontent.com #github
+        ///127.0.0.1 camo.githubusercontent.com #github
         ///127.0.0.1 github.com #github
         ///127.0.0.1 nodeload.github.com #github
         ///127.0.0.1 api.github.com #github
@@ -122,30 +125,11 @@ namespace Bocchidesu_coctothorpe {
         ///127.0.0.1 assets-cdn.github.com #github
         ///127.0.0.1 documentcloud.github.com #github
         ///127.0.0.1 help.github.com #github
-        ///127.0.0.1 githubstatus.com #github
-        ///127.0.0.1 github.global.ssl.fastly.net #github
-        ///127.0.0.1 raw.githubusercontent.com #github
-        ///127.0.0.1 p [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///127.0.0.1 githubstat [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         public static string github {
             get {
                 return ResourceManager.GetString("github", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 
-        ///127.0.0.1 gravatar.com #gravatar
-        ///127.0.0.1 www.gravatar.com #gravatar
-        ///127.0.0.1 cn.gravatar.com #gravatar
-        ///127.0.0.1 en.gravatar.com #gravatar
-        ///127.0.0.1 s.gravatar.com #gravatar
-        ///127.0.0.1 2.gravatar.com #gravatar
-        /// 的本地化字符串。
-        /// </summary>
-        public static string gravatar {
-            get {
-                return ResourceManager.GetString("gravatar", resourceCulture);
             }
         }
         
