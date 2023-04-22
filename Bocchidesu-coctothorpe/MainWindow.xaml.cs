@@ -5,7 +5,6 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.NetworkInformation;
-using System.Reflection;
 using System.Windows;
 
 namespace Bocchidesu_coctothorpe
@@ -92,49 +91,49 @@ namespace Bocchidesu_coctothorpe
                         }
                         if (Pixiv.IsChecked.Value)
                         {
-                                string conpath = txt.pixiv;//定义要获取的文件内容地址
-                                getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
-                            
+                            string conpath = txt.pixiv;//定义要获取的文件内容地址
+                            getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
+
                         }
                         if (ExHentai.IsChecked.Value)
                         {
-                                string conpath = txt.exhentai;//定义要获取的文件内容地址
-                                getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
-                            
+                            string conpath = txt.exhentai;//定义要获取的文件内容地址
+                            getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
+
                         }
                         if (Steam.IsChecked.Value)
                         {
-                                string conpath = txt.steam;//定义要获取的文件内容地址
-                                getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
-                            
+                            string conpath = txt.steam;//定义要获取的文件内容地址
+                            getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
+
                         }
                         if (Nyaa.IsChecked.Value)
                         {
-                                string conpath = txt.nyaa;//定义要获取的文件内容地址
-                                getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
-                            
+                            string conpath = txt.nyaa;//定义要获取的文件内容地址
+                            getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
+
                         }
                         if (Discord.IsChecked.Value)
                         {
-                                string conpath = txt.discord;//定义要获取的文件内容地址
-                                getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
-                            
+                            string conpath = txt.discord;//定义要获取的文件内容地址
+                            getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
+
                         }
                         if (GitHub.IsChecked.Value)
                         {
-                                string conpath = txt.github;//定义要获取的文件内容地址
-                                getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
-                            
+                            string conpath = txt.github;//定义要获取的文件内容地址
+                            getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
+
                         }
                         if (DuckDuckGo.IsChecked.Value)
                         {
-                                string conpath = txt.duckduckgo;//定义要获取的文件内容地址
-                                getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
+                            string conpath = txt.duckduckgo;//定义要获取的文件内容地址
+                            getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
                         }
                         if (v2ex.IsChecked.Value)
                         {
-                                string conpath = txt.v2ex;//定义要获取的文件内容地址
-                                getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
+                            string conpath = txt.v2ex;//定义要获取的文件内容地址
+                            getContentToFile(conpath);//将log.txt内容写入到自己的文件中`
                         }
                         try
                         {
