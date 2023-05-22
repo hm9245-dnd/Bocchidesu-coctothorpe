@@ -32,3 +32,4 @@
 127.0.0.1 avatars6.githubusercontent.com #github
 127.0.0.1 avatars7.githubusercontent.com #github
 127.0.0.1 avatars8.githubusercontent.com #github
+127.0.0.1 objects.githubusercontent.com #github
