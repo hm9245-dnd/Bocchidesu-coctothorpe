@@ -29,7 +29,6 @@
     <None Remove="Resources\duckduckgo.txt" />
     <None Remove="Resources\exhentai.txt" />
     <None Remove="Resources\github.txt" />
-    <None Remove="Resources\gravatar.txt" />
     <None Remove="Resources\ms.txt" />
     <None Remove="Resources\nyaa.txt" />
     <None Remove="Resources\pixiv.txt" />
@@ -54,7 +53,6 @@
     <EmbeddedResource Include="Resources\discord.txt" />
     <EmbeddedResource Include="Resources\duckduckgo.txt" />
     <EmbeddedResource Include="Resources\exhentai.txt" />
-    <EmbeddedResource Include="Resources\gravatar.txt" />
     <EmbeddedResource Include="Resources\ms.txt" />
     <EmbeddedResource Include="Resources\nyaa.txt" />
     <EmbeddedResource Include="Resources\steam.txt" />
