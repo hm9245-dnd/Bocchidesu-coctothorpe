@@ -9,6 +9,7 @@ using System.Windows;
 
 namespace Bocchidesu_coctothorpe
 {
+
     public partial class MainWindow : Window
     {
         private static readonly ILog log = LogManager.GetLogger("mylogger");
@@ -53,6 +54,10 @@ namespace Bocchidesu_coctothorpe
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            if (!Directory.Exists("temp"))
+            {
+                Directory.CreateDirectory("temp");
+            }
             try
             {
                 if (Process.GetProcessesByName("nginx").ToList().Count > 0)

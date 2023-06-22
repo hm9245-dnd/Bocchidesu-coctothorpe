@@ -13,7 +13,7 @@
             <ColumnDefinition />
             <ColumnDefinition Width="0*" />
         </Grid.ColumnDefinitions>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,353,0,0" VerticalAlignment="Top" Grid.Column="1" Height="47" Width="110" Background="#FF30BB85" UseLayoutRounding="False" BorderThickness="0,0,0,0" ClipToBounds="True" FontSize="14" Click="Button_Click">
+        <Button Content="开启/关闭" HorizontalAlignment="Center" Margin="0,353,0,0" VerticalAlignment="Top" Grid.Column="1" Height="47" Width="110" Background="#FF30BB85" UseLayoutRounding="False" BorderThickness="0,0,0,0" ClipToBounds="True" FontSize="14" Click="Button_Click">
             <Button.Template>
                 <ControlTemplate TargetType="{x:Type Button}">
                     <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="1" CornerRadius="10,10,10,10">

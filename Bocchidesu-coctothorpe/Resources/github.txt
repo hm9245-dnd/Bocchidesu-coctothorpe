@@ -1,2 +1,3 @@
 
 127.0.0.1 github.com #github
+127.0.0.1 objects.githubusercontent.com #github
